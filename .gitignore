@@ -1,0 +1,11 @@
+.venv/
+.vscode/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# data never goes to Git: bronze/silver/gold are generated
+data/
+*.duckdb
+*.parquet
